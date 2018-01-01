@@ -61,21 +61,21 @@ public class ArticleListActivity extends ActionBarActivity implements
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
         // This is the FrameLayout of the Toolbar
-        // NEW CODE ricardohnn: THIS GETS REMOVED/COMMENTED OUT
+        // REMOVED FROM ORIGINAL CODE
         //final View toolbarContainerView = findViewById(R.id.toolbar_container);
 
 
         // A Swipe-To-Refresh interface,
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
-        // NEW CODE ricardohnn: This code triggers a refresh when user swipes down
-//        mSwipeRefreshLayout.setOnRefreshListener(
-//                new SwipeRefreshLayout.OnRefreshListener() {
-//                    @Override
-//                    public void onRefresh() {
-//                        refresh();
-//                    }
-//                }
-//        );
+        // This code triggers a refresh when user swipes down
+        mSwipeRefreshLayout.setOnRefreshListener(
+                new SwipeRefreshLayout.OnRefreshListener() {
+                    @Override
+                    public void onRefresh() {
+                        refresh();
+                    }
+                }
+        );
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         getLoaderManager().initLoader(0, null, this);

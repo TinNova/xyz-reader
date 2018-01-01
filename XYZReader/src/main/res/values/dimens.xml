@@ -6,7 +6,6 @@
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.2</item>
 
     <dimen name="fab_elevation">4dp</dimen>
-    <dimen name="fab_press_translation_z">8dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
     <!--cards -->
@@ -25,6 +24,5 @@
     <dimen name="card_secondary_text_padding_bottom">8dp</dimen>
     <dimen name="card_secondary_text_size">12sp</dimen>
     <dimen name="card_list_padding">8dp</dimen>
-    <dimen name="details_padding">8dp</dimen>
     <dimen name="detail_body_text_padding">16dp</dimen>
 </resources>
