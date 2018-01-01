@@ -1,0 +1,30 @@
+<resources>
+    <!-- detail -->
+    <dimen name="detail_title_text_size">32sp</dimen>
+    <dimen name="detail_subtitle_text_size">14sp</dimen>
+    <dimen name="detail_body_text_size">16sp</dimen>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.2</item>
+
+    <dimen name="fab_elevation">4dp</dimen>
+    <dimen name="fab_press_translation_z">8dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+
+    <!--cards -->
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_margin">4dp</dimen>
+
+    <!--cards text -->
+    <dimen name="card_text_padding_start">8dp</dimen>
+    <dimen name="card_text_padding_end">8dp</dimen>
+
+    <dimen name="card_primary_text_padding_top">8dp</dimen>
+    <dimen name="card_primary_text_padding_bottom">4dp</dimen>
+    <dimen name="card_primary_text_size">14sp</dimen>
+
+    <dimen name="card_secondary_text_padding_bottom">8dp</dimen>
+    <dimen name="card_secondary_text_size">12sp</dimen>
+    <dimen name="card_list_padding">8dp</dimen>
+    <dimen name="details_padding">8dp</dimen>
+    <dimen name="detail_body_text_padding">16dp</dimen>
+</resources>
