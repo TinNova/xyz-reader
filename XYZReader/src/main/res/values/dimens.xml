@@ -5,12 +5,13 @@
     <dimen name="detail_body_text_size">16sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.2</item>
 
-    <dimen name="fab_elevation">4dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
     <!--cards -->
     <dimen name="card_corner_radius">4dp</dimen>
-    <dimen name="card_elevation">4dp</dimen>
+    <!--Cards automatically have a 2dp Elevation, so it's not needed to manually add it-->
+    <!--<dimen name="card_elevation">2dp</dimen>-->
     <dimen name="card_margin">4dp</dimen>
 
     <!--cards text -->
@@ -25,4 +26,7 @@
     <dimen name="card_secondary_text_size">12sp</dimen>
     <dimen name="card_list_padding">8dp</dimen>
     <dimen name="detail_body_text_padding">16dp</dimen>
+
+    <!--app bar-->
+    <dimen name="app_bar_elevation">4dp</dimen>
 </resources>

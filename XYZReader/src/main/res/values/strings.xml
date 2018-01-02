@@ -9,4 +9,7 @@
 
     <string name="up">Up</string>
 
+    <!-- Snack Bar -->
+    <string name="loading_completed">Articles Have Loaded!</string>
+
 </resources>
